@@ -8,6 +8,10 @@ from testdata.Variables import *
 @pytest.fixture
 def login_application(page:Page):
     page.goto(BASE_URL)
+    page_url = page.url
+    expect(page).to_have_url(page_url)
+    page_title = page.title()
+    expect(page).to_have_title(page_title)
     page.locator(Login_UserName).fill(USERNAME)
     page.locator(Login_Password).fill(PASSWORD)
     page.locator(Login_Button).click()
