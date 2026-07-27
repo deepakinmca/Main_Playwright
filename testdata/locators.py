@@ -31,7 +31,7 @@ Xpath_Status           = "//label[normalize-space()='Status']/ancestor::div[cont
 
 #------------------------------------------------------------------------------------------------------------------#
 # Create My Info - Personal Details
-PROFILE_NAME            = "profile picture"
+
 FirstName               = "//input[@name='firstName']"
 lastName                = "//input[@name='lastName']"
 IMAGE_CLASS_NAME        = ".orangehrm-edit-employee-image"
@@ -42,4 +42,11 @@ Test_Field              = "//label[normalize-space()='Test_Field']/following::in
 License_Num             = "//label[normalize-space()='Driver's License Number']/following::input"
 Emp_ID                  = "//label[@class='oxd-label' and normalize-space()='Employee Id']/following::input[1]"
 
+#------------------------------------------------------------------------------------------------------------------#
+# Create My Info - Contact Details
 
+City_Name               = "//label[normalize-space()='City']/following::input[1]"
+Street_1                = "//label[normalize-space()='Street 1']/following::input[1]"
+Street_2                = "//label[normalize-space()='Street 2']/following::input[1]"
+State_Name              = "//label[normalize-space()='State/Province']/following::input[1]"
+Zip_Code                = "//label[normalize-space()='Zip/Postal Code']/following::input[1]"

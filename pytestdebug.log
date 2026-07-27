@@ -1,0 +1,2294 @@
+versions pytest-9.1.1, python-3.14.6.final.0
+invocation_dir=C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright
+cwd=C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright
+args=('--headed', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x0000020E620B12B0>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x0000020E620B12B0>
+    early skip of rewriting module: importlib.metadata._adapters [assertion]
+    early skip of rewriting module: email.message [assertion]
+    early skip of rewriting module: quopri [assertion]
+    early skip of rewriting module: email.utils [assertion]
+    early skip of rewriting module: email._parseaddr [assertion]
+    early skip of rewriting module: email.errors [assertion]
+    early skip of rewriting module: email._policybase [assertion]
+    early skip of rewriting module: email.header [assertion]
+    early skip of rewriting module: email.quoprimime [assertion]
+    early skip of rewriting module: email.base64mime [assertion]
+    early skip of rewriting module: email.charset [assertion]
+    early skip of rewriting module: email.encoders [assertion]
+    early skip of rewriting module: email._encoded_words [assertion]
+    early skip of rewriting module: email.iterators [assertion]
+    early skip of rewriting module: importlib.metadata._text [assertion]
+    early skip of rewriting module: email.parser [assertion]
+    early skip of rewriting module: email.feedparser [assertion]
+      pytest_metadata [hook]
+          metadata: {'Python': '3.14.6', 'Platform': 'Windows-11-10.0.26200-SP0', 'Packages': {'pytest': '9.1.1', 'pluggy': '1.6.0'}, 'Plugins': {'base-url': '2.1.0', 'html': '4.2.0', 'metadata': '3.1.1', 'playwright': '0.8.0', 'repeat': '0.9.4', 'xdist': '3.8.0'}}
+          config: <_pytest.config.Config object at 0x0000020E620B12B0>
+      finish pytest_metadata --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000020E6515FE00>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000020E6515FCB0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: _pyrepl [assertion]
+    early skip of rewriting module: _pyrepl.utils [assertion]
+    early skip of rewriting module: _pyrepl.types [assertion]
+    early skip of rewriting module: _pyrepl.trace [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+          plugin_name: 2260794094128
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x0000020E620B12B0>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_base_url\\plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_html\\plugin.py'>
+          plugin_name: html
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.fixtures' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_html\\fixtures.py'>
+          plugin_name: html_fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
+          plugin_name: metadata
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_repeat' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_repeat.py'>
+          plugin_name: repeat
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.plugin' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\xdist\\plugin.py'>
+          plugin_name: xdist
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.looponfail' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\xdist\\looponfail.py'>
+          plugin_name: xdist.looponfail
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\i9884\\\\AppData\\\\Local\\\\Temp\\\\tmpbhlodcj4' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\i9884\\\\AppData\\\\Local\\\\Temp\\\\tmps_rklsdk' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\conftest.py'>
+          plugin_name: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'fixtures.login_fixture' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\fixtures\\login_fixture.py'>
+          plugin_name: fixtures.login_fixture
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000020E6515FE00>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000020E6515FCB0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x0000020E6521C830>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+    matched marked file '_pytest.terminalprogress' (from '_pytest.terminalprogress') [assertion]
+    find_module called for: _pytest.terminalprogress [assertion]
+    found cached rewritten pyc for C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\venv\Lib\site-packages\_pytest\terminalprogress.py [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        pytest_plugin_registered [hook]
+            plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x0000020E6521E7B0>
+            plugin_name: terminalprogress-plugin
+            manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+        finish pytest_plugin_registered --> [] [hook]
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminalprogress' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\terminalprogress.py'>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x0000020E6521E900>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+          plugin_name: 2260794094128
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x0000020E620B12B0>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\mark\\__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\assertion\\__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.subtests' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\subtests.py'>
+          plugin_name: subtests
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_base_url\\plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.plugin' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_html\\plugin.py'>
+          plugin_name: html
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_html.fixtures' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_html\\fixtures.py'>
+          plugin_name: html_fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_metadata.plugin' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_metadata\\plugin.py'>
+          plugin_name: metadata
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      early skip of rewriting module: _ast_unparse [assertion]
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_repeat' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_repeat.py'>
+          plugin_name: repeat
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.plugin' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\xdist\\plugin.py'>
+          plugin_name: xdist
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'xdist.looponfail' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\xdist\\looponfail.py'>
+          plugin_name: xdist.looponfail
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=9 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\i9884\\\\AppData\\\\Local\\\\Temp\\\\tmpbhlodcj4' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=11 _state='suspended' tmpfile=<EncodedFile name="<_TemporaryFileWrapper file=<_io.FileIO name='C:\\\\Users\\\\i9884\\\\AppData\\\\Local\\\\Temp\\\\tmps_rklsdk' mode='rb+' closefd=True>>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=7 _state='started' tmpfile=<_io.TextIOWrapper name='nul' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'conftest' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\conftest.py'>
+          plugin_name: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'fixtures.login_fixture' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\fixtures\\login_fixture.py'>
+          plugin_name: fixtures.login_fixture
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x0000020E6515FE00>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x0000020E6515FCB0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x0000020E6521C830>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalProgressPlugin object at 0x0000020E6521E7B0>
+          plugin_name: terminalprogress-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminalprogress' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\terminalprogress.py'>
+          plugin_name: terminalprogress
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x0000020E6521E900>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x0000020E6521F230>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x0000020E61D43230>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x0000020E620B12B0>
+          start_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright
+      finish pytest_report_header --> [['rootdir: C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright', 'plugins: base-url-2.1.0, html-4.2.0, metadata-3.1.1, playwright-0.8.0, repeat-0.9.4, xdist-3.8.0'], ['using: pytest-9.1.1', 'registered third-party plugins:', '  pytest-base-url-2.1.0 at C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_base_url\\plugin.py', '  pytest-html-4.2.0 at C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_html\\plugin.py', '  pytest-html-4.2.0 at C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_html\\fixtures.py', '  pytest-metadata-3.1.1 at C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_metadata\\plugin.py', '  pytest-playwright-0.8.0 at C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_playwright\\pytest_playwright.py', '  pytest-repeat-0.9.4 at C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\pytest_repeat.py', '  pytest-xdist-3.8.0 at C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\xdist\\plugin.py', '  pytest-xdist-3.8.0 at C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\xdist\\looponfail.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=WindowsPath('C:/Users/i9884/OneDrive/Desktop/Learnings/Playwright'), parts=[], parametrization=None, module_name=None, original_index=0) [collection]
+            pytest_collect_directory [hook]
+                path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir Playwright> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Dir Playwright> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir Playwright>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir Playwright>
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\.git
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\.pytest_cache
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\.vscode
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Pages_Keywords
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Pages_Keywords
+            parent: <Dir Playwright>
+        finish pytest_collect_directory --> <Dir Pages_Keywords> [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Reports
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Reports
+            parent: <Dir Playwright>
+        finish pytest_collect_directory --> <Dir Reports> [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Screenshots
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Screenshots
+            parent: <Dir Playwright>
+        finish pytest_collect_directory --> <Dir Screenshots> [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\__pycache__
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\conftest.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\conftest.py
+            parent: <Dir Playwright>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\debug.png
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\debug.png
+            parent: <Dir Playwright>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures
+            parent: <Dir Playwright>
+        finish pytest_collect_directory --> <Dir fixtures> [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\pytestdebug.log
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\pytestdebug.log
+            parent: <Dir Playwright>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\testdata
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\testdata
+            parent: <Dir Playwright>
+        finish pytest_collect_directory --> <Dir testdata> [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests
+            parent: <Dir Playwright>
+        finish pytest_collect_directory --> <Dir tests> [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils
+            parent: <Dir Playwright>
+        finish pytest_collect_directory --> <Dir utils> [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\venv
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+      finish pytest_make_collect_report --> <CollectReport '.' lenresult=7 outcome='passed'> [hook]
+    genitems <Dir Pages_Keywords> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir Pages_Keywords>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir Pages_Keywords>
+      finish pytest_make_collect_report --> <CollectReport 'Pages_Keywords' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'Pages_Keywords' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir Reports> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir Reports>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir Reports>
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Reports\assets
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Reports\assets
+            parent: <Dir Reports>
+        finish pytest_collect_directory --> <Dir assets> [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Reports\report.html
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Reports\report.html
+            parent: <Dir Reports>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Reports\reports.html
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Reports\reports.html
+            parent: <Dir Reports>
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'Reports' lenresult=1 outcome='passed'> [hook]
+    genitems <Dir assets> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir assets>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir assets>
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Reports\assets\style.css
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\Reports\assets\style.css
+            parent: <Dir assets>
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'Reports/assets' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'Reports/assets' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'Reports' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir Screenshots> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir Screenshots>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir Screenshots>
+      finish pytest_make_collect_report --> <CollectReport 'Screenshots' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'Screenshots' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir fixtures> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir fixtures>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir fixtures>
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures\__pycache__
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures\api_fixture.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures\api_fixture.py
+            parent: <Dir fixtures>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures\browser_fixture.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures\browser_fixture.py
+            parent: <Dir fixtures>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures\database_fixture.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures\database_fixture.py
+            parent: <Dir fixtures>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures\login_fixture.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\fixtures\login_fixture.py
+            parent: <Dir fixtures>
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'fixtures' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'fixtures' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir testdata> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir testdata>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir testdata>
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\testdata\Variables.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\testdata\Variables.py
+            parent: <Dir testdata>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\testdata\__pycache__
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\testdata\config.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\testdata\config.py
+            parent: <Dir testdata>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\testdata\locators.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\testdata\locators.py
+            parent: <Dir testdata>
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'testdata' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'testdata' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir tests> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir tests>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir tests>
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\.pytest_cache
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\Login
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\Login
+            parent: <Dir tests>
+        finish pytest_collect_directory --> <Dir Login> [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation
+            parent: <Dir tests>
+        finish pytest_collect_directory --> <Dir UserCreation> [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_directory [hook]
+            path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo
+            parent: <Dir tests>
+        finish pytest_collect_directory --> <Dir myInfo> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=3 outcome='passed'> [hook]
+    genitems <Dir Login> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir Login>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir Login>
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\Login\.pytest_cache
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\Login\__pycache__
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\Login\venv
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/Login' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/Login' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir UserCreation> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir UserCreation>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir UserCreation>
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation\.pytest_cache
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation\__pycache__
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation\test_createAdmin.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation\test_createAdmin.py
+            parent: <Dir UserCreation>
+          pytest_pycollect_makemodule [hook]
+              module_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation\test_createAdmin.py
+              parent: <Dir UserCreation>
+          finish pytest_pycollect_makemodule --> <Module test_createAdmin.py> [hook]
+        finish pytest_collect_file --> [<Module test_createAdmin.py>] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation\test_updatepwd.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation\test_updatepwd.py
+            parent: <Dir UserCreation>
+          pytest_pycollect_makemodule [hook]
+              module_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation\test_updatepwd.py
+              parent: <Dir UserCreation>
+          finish pytest_pycollect_makemodule --> <Module test_updatepwd.py> [hook]
+        finish pytest_collect_file --> [<Module test_updatepwd.py>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/UserCreation' lenresult=2 outcome='passed'> [hook]
+    genitems <Module test_createAdmin.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_createAdmin.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_createAdmin.py>
+      find_module called for: test_createAdmin [assertion]
+      matched test file 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\tests\\UserCreation\\test_createAdmin.py' [assertion]
+      found cached rewritten pyc for C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation\test_createAdmin.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Page
+            obj: <class 'playwright.sync_api._generated.Page'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: expect
+            obj: <playwright.sync_api.Expect object at 0x0000020E64BDC590>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: TIMEOUT
+            obj: 5000
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: HEADLESS
+            obj: False
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: USERNAME
+            obj: Admin
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: BROWSER
+            obj: chromium
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: PASSWORD
+            obj: admin123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: CURRENT_PASSWORD
+            obj: admin123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: CONFIRM_PASSWORD
+            obj: admin123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: BASE_URL
+            obj: https://opensource-demo.orangehrmlive.com/web/index.php
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Login_Button
+            obj: button[type='submit']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Login_UserName
+            obj: input[name='username']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Login_Password
+            obj: input[name='password']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Password_first
+            obj: input[type='password']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Confirm_Pwd_last
+            obj: input[type='password']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Current_Password
+            obj: input[type='password']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Save_Button
+            obj: button[type='submit']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Cancel_Button
+            obj: //button[@type='button' and normalize-space()='Cancel']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Clicking_User_Profile
+            obj: p.oxd-userdropdown-name
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Change_Password_link
+            obj: //a[@role='menuitem' and text()='Change Password']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Save_button
+            obj: //button[@type='submit']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Click_Admin
+            obj: //span[normalize-space()='Admin']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Click_Add
+            obj: //button[normalize-space()='Add']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Emp_Name
+            obj: //input[@placeholder='Type for hints...']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: d_Select_Status
+            obj: ('div').filter({ hasText: '-- Select --' }).last()
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: UserName
+            obj: //label[normalize-space()='Username']/ancestor::div[contains(@class,'oxd-input-group')]//input
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Confirm_pwd
+            obj: //label[normalize-space()='Confirm Password']/ancestor::div[contains(@class,'oxd-input-group')]//input
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Xpath_Role
+            obj: //label[normalize-space()='User Role']/../following-sibling::div//div[contains(@class,'oxd-select-text-input')]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Xpath_Status
+            obj: //label[normalize-space()='Status']/ancestor::div[contains(@class,'oxd-input-group')]//div[contains(@class,'oxd-select-text-input')]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: FirstName
+            obj: //input[@name='firstName']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: lastName
+            obj: //input[@name='lastName']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: IMAGE_CLASS_NAME
+            obj: .orangehrm-edit-employee-image
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Click_MyInfo
+            obj: //span[normalize-space()='My Info']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Other_ID
+            obj: //label[normalize-space()='Other Id']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Radio_Male
+            obj: //label[normalize-space()='Male']/preceding-sibling::input
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Test_Field
+            obj: //label[normalize-space()='Test_Field']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: License_Num
+            obj: //label[normalize-space()='Driver's License Number']/following::input
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Emp_ID
+            obj: //label[@class='oxd-label' and normalize-space()='Employee Id']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: City_Name
+            obj: //label[normalize-space()='City']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Street_1
+            obj: //label[normalize-space()='Street 1']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Street_2
+            obj: //label[normalize-space()='Street 2']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: State_Name
+            obj: //label[normalize-space()='State/Province']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Zip_Code
+            obj: Zip/Postal Code
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: NO_Of_EMP
+            obj: 200
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: COUNTRY
+            obj: India
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: FIRST_NAME
+            obj: Deepak
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: NEW_PWD
+            obj: deepak123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: CONFIRM_PWD
+            obj: deepak123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: LAST_NAME
+            obj: Natarajan
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: JOB_TITLE
+            obj: Test Lead
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: MOBILE
+            obj: 7324456689
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: WORK_EMAIL
+            obj: deepakinmca@gmail.com
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: PAGE_TITLE
+            obj: OrangeHRM
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: USER_ROLE
+            obj: Admin
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: EMP_FNAME
+            obj: Deepak
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: USER_STATUS
+            obj: Enabled
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: EMP_LNAME
+            obj: Natarajan
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: ADMIN_PWD
+            obj: deepak123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: ADMIN_CONFIRM_PWD
+            obj: deepak123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: USER_NAME
+            obj: deepakinmca
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: DICT_ADMIN_USER
+            obj: {'role': 'Admin', 'status': 'Enabled', 'employee': 'Paul Collings', 'username': 'Deepak123', 'password': 'Admin@123', 'confirm_password': 'Admin@123'}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: EMP_ID
+            obj: EMP_001
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: OTHER_ID
+            obj: 108
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: TEST_FIELD
+            obj: Test Orange
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: PROFILE_NAME
+            obj: profile picture
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: DICT_CUSTOM_FIELDS
+            obj: {'Blood Type': '', 'Test_Field': 'Test_IT'}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: STREET_NAME_1
+            obj: No 2/9
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: CITY_NAME
+            obj: T Nagar
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: STATE_NAME
+            obj: Tamil Nadu
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: STREET_NAME_2
+            obj: Ayyanar Koil Street
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_createAdmin.py>
+            name: Test_UserCreation
+            obj: <class 'test_createAdmin.Test_UserCreation'>
+        finish pytest_pycollect_makeitem --> <Class Test_UserCreation> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/UserCreation/test_createAdmin.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Class Test_UserCreation> [collection]
+      pytest_collectstart [hook]
+          collector: <Class Test_UserCreation>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Class Test_UserCreation>
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_UserCreation>
+            name: test_adminUserCreation
+            obj: <function Test_UserCreation.test_adminUserCreation at 0x0000020E66433690>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000020E66410830>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x0000020E620B12B0>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
+          early skip of rewriting module: encodings.unicode_escape [assertion]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_adminUserCreation[chromium]>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_adminUserCreation[chromium]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_adminUserCreation[chromium]>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/UserCreation/test_createAdmin.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Module test_updatepwd.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_updatepwd.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_updatepwd.py>
+      find_module called for: test_updatepwd [assertion]
+      matched test file 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\tests\\UserCreation\\test_updatepwd.py' [assertion]
+      found cached rewritten pyc for C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\UserCreation\test_updatepwd.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from 'C:\\Users\\i9884\\OneDrive\\Desktop\\Learnings\\Playwright\\venv\\Lib\\site-packages\\_pytest\\assertion\\rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Page
+            obj: <class 'playwright.sync_api._generated.Page'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: expect
+            obj: <playwright.sync_api.Expect object at 0x0000020E64BDC590>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: TIMEOUT
+            obj: 5000
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: HEADLESS
+            obj: False
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: USERNAME
+            obj: Admin
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: BROWSER
+            obj: chromium
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: PASSWORD
+            obj: admin123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: CURRENT_PASSWORD
+            obj: admin123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: CONFIRM_PASSWORD
+            obj: admin123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: BASE_URL
+            obj: https://opensource-demo.orangehrmlive.com/web/index.php
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Login_Button
+            obj: button[type='submit']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Login_UserName
+            obj: input[name='username']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Login_Password
+            obj: input[name='password']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Password_first
+            obj: input[type='password']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Confirm_Pwd_last
+            obj: input[type='password']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Current_Password
+            obj: input[type='password']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Save_Button
+            obj: button[type='submit']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Cancel_Button
+            obj: //button[@type='button' and normalize-space()='Cancel']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Clicking_User_Profile
+            obj: p.oxd-userdropdown-name
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Change_Password_link
+            obj: //a[@role='menuitem' and text()='Change Password']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Save_button
+            obj: //button[@type='submit']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Click_Admin
+            obj: //span[normalize-space()='Admin']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Click_Add
+            obj: //button[normalize-space()='Add']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Emp_Name
+            obj: //input[@placeholder='Type for hints...']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: d_Select_Status
+            obj: ('div').filter({ hasText: '-- Select --' }).last()
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: UserName
+            obj: //label[normalize-space()='Username']/ancestor::div[contains(@class,'oxd-input-group')]//input
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Confirm_pwd
+            obj: //label[normalize-space()='Confirm Password']/ancestor::div[contains(@class,'oxd-input-group')]//input
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Xpath_Role
+            obj: //label[normalize-space()='User Role']/../following-sibling::div//div[contains(@class,'oxd-select-text-input')]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Xpath_Status
+            obj: //label[normalize-space()='Status']/ancestor::div[contains(@class,'oxd-input-group')]//div[contains(@class,'oxd-select-text-input')]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: FirstName
+            obj: //input[@name='firstName']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: lastName
+            obj: //input[@name='lastName']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: IMAGE_CLASS_NAME
+            obj: .orangehrm-edit-employee-image
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Click_MyInfo
+            obj: //span[normalize-space()='My Info']
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Other_ID
+            obj: //label[normalize-space()='Other Id']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Radio_Male
+            obj: //label[normalize-space()='Male']/preceding-sibling::input
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Test_Field
+            obj: //label[normalize-space()='Test_Field']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: License_Num
+            obj: //label[normalize-space()='Driver's License Number']/following::input
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Emp_ID
+            obj: //label[@class='oxd-label' and normalize-space()='Employee Id']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: City_Name
+            obj: //label[normalize-space()='City']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Street_1
+            obj: //label[normalize-space()='Street 1']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Street_2
+            obj: //label[normalize-space()='Street 2']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: State_Name
+            obj: //label[normalize-space()='State/Province']/following::input[1]
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Zip_Code
+            obj: Zip/Postal Code
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: NO_Of_EMP
+            obj: 200
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: COUNTRY
+            obj: India
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: FIRST_NAME
+            obj: Deepak
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: NEW_PWD
+            obj: deepak123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: CONFIRM_PWD
+            obj: deepak123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: LAST_NAME
+            obj: Natarajan
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: JOB_TITLE
+            obj: Test Lead
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: MOBILE
+            obj: 7324456689
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: WORK_EMAIL
+            obj: deepakinmca@gmail.com
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: PAGE_TITLE
+            obj: OrangeHRM
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: USER_ROLE
+            obj: Admin
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: EMP_FNAME
+            obj: Deepak
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: USER_STATUS
+            obj: Enabled
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: EMP_LNAME
+            obj: Natarajan
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: ADMIN_PWD
+            obj: deepak123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: ADMIN_CONFIRM_PWD
+            obj: deepak123
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: USER_NAME
+            obj: deepakinmca
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: DICT_ADMIN_USER
+            obj: {'role': 'Admin', 'status': 'Enabled', 'employee': 'Paul Collings', 'username': 'Deepak123', 'password': 'Admin@123', 'confirm_password': 'Admin@123'}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: EMP_ID
+            obj: EMP_001
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: OTHER_ID
+            obj: 108
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: TEST_FIELD
+            obj: Test Orange
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: PROFILE_NAME
+            obj: profile picture
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: DICT_CUSTOM_FIELDS
+            obj: {'Blood Type': '', 'Test_Field': 'Test_IT'}
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: STREET_NAME_1
+            obj: No 2/9
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: CITY_NAME
+            obj: T Nagar
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: STATE_NAME
+            obj: Tamil Nadu
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: STREET_NAME_2
+            obj: Ayyanar Koil Street
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_updatepwd.py>
+            name: Test_UpdatePassword
+            obj: <class 'test_updatepwd.Test_UpdatePassword'>
+        finish pytest_pycollect_makeitem --> <Class Test_UpdatePassword> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/UserCreation/test_updatepwd.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Class Test_UpdatePassword> [collection]
+      pytest_collectstart [hook]
+          collector: <Class Test_UpdatePassword>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Class Test_UpdatePassword>
+        pytest_pycollect_makeitem [hook]
+            collector: <Class Test_UpdatePassword>
+            name: test_UpdatePwd
+            obj: <function Test_UpdatePassword.test_UpdatePwd at 0x0000020E664483B0>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x0000020E6523B4D0>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x0000020E620B12B0>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_UpdatePwd[chromium]>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_UpdatePwd[chromium]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_UpdatePwd[chromium]>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/UserCreation/test_updatepwd.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/UserCreation' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir myInfo> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir myInfo>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir myInfo>
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\.pytest_cache
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\ContactDetails.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\ContactDetails.py
+            parent: <Dir myInfo>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Dependents.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Dependents.py
+            parent: <Dir myInfo>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\EmergencyContacts.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\EmergencyContacts.py
+            parent: <Dir myInfo>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Immigration.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Immigration.py
+            parent: <Dir myInfo>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Job.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Job.py
+            parent: <Dir myInfo>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Memberships.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Memberships.py
+            parent: <Dir myInfo>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\PersonalDetails.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\PersonalDetails.py
+            parent: <Dir myInfo>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Qualifications.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Qualifications.py
+            parent: <Dir myInfo>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Reports_to.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Reports_to.py
+            parent: <Dir myInfo>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Salary.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\Salary.py
+            parent: <Dir myInfo>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\myInfo\__pycache__
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> True [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/myInfo' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/myInfo' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests' lenresult=3 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+    genitems <Dir utils> [collection]
+      pytest_collectstart [hook]
+          collector: <Dir utils>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Dir utils>
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\common_utils.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\common_utils.py
+            parent: <Dir utils>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\database.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\database.py
+            parent: <Dir utils>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\excel_utils.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\excel_utils.py
+            parent: <Dir utils>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\json_utils.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\json_utils.py
+            parent: <Dir utils>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\logger.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\logger.py
+            parent: <Dir utils>
+        finish pytest_collect_file --> [] [hook]
+        pytest_ignore_collect [hook]
+            collection_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\screenshot.py
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+        finish pytest_ignore_collect --> None [hook]
+        pytest_collect_file [hook]
+            file_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\utils\screenshot.py
+            parent: <Dir utils>
+        finish pytest_collect_file --> [] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'utils' lenresult=0 outcome='passed'> [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'utils' lenresult=0 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport '.' lenresult=7 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x0000020E620B12B0>
+          items: [<Function test_adminUserCreation[chromium]>, <Function test_UpdatePwd[chromium]>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x0000020E620B12B0>
+            start_path: C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright
+            items: [<Function test_adminUserCreation[chromium]>, <Function test_UpdatePwd[chromium]>]
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=2>
+      pytest_runtest_protocol [hook]
+          item: <Function test_adminUserCreation[chromium]>
+          nextitem: <Function test_UpdatePwd[chromium]>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]
+            location: ('tests\\UserCreation\\test_createAdmin.py', 6, 'Test_UserCreation.test_adminUserCreation[chromium]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_adminUserCreation[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup -->  [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <_pytest.config.Config object at 0x0000020E620B12B0> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+              headless: False
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
+              request: <SubRequest 'playwright' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <playwright._impl._playwright.Playwright object at 0x0000020E66412A50> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <BrowserType name=chromium executable_path=C:\Users\i9884\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='connect_options' scope='session' baseid=''>
+              request: <SubRequest 'connect_options' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <function launch_browser.<locals>.launch at 0x0000020E66433CC0> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <Browser type=<BrowserType name=chromium executable_path=C:\Users\i9884\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe> version=149.0.7827.55> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_pw_artifacts_folder' scope='session' baseid=''>
+              request: <SubRequest '_pw_artifacts_folder' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <TemporaryDirectory 'C:\\Users\\i9884\\AppData\\Local\\Temp\\playwright-pytest-9m4a1svp'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\test-results\tests-usercreation-test-createadmin-py-test-usercreation-test-adminusercreation-chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <pytest_playwright.pytest_playwright.ArtifactsRecorder object at 0x0000020E66413380> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <function new_context.<locals>._new_context at 0x0000020E66651B10> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=C:\Users\i9884\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe> version=149.0.7827.55>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='login_application' scope='function' baseid=''>
+              request: <SubRequest 'login_application' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_setup --> <Page url='https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_adminUserCreation[chromium]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000020E620B12B0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_adminUserCreation[chromium]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_adminUserCreation[chromium]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_adminUserCreation[chromium]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000020E620B12B0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_adminUserCreation[chromium]>
+            nextitem: <Function test_UpdatePwd[chromium]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='login_application' scope='function' baseid=''>
+              request: <SubRequest 'login_application' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_adminUserCreation[chromium]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000020E620B12B0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/UserCreation/test_createAdmin.py::Test_UserCreation::test_adminUserCreation[chromium]
+            location: ('tests\\UserCreation\\test_createAdmin.py', 6, 'Test_UserCreation.test_adminUserCreation[chromium]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_UpdatePwd[chromium]>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]
+            location: ('tests\\UserCreation\\test_updatepwd.py', 6, 'Test_UpdatePassword.test_UpdatePwd[chromium]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_UpdatePwd[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_setup --> C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\test-results\tests-usercreation-test-updatepwd-py-test-updatepassword-test-updatepwd-chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_setup --> <pytest_playwright.pytest_playwright.ArtifactsRecorder object at 0x0000020E6644E990> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_setup --> <function new_context.<locals>._new_context at 0x0000020E666EEF00> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=C:\Users\i9884\AppData\Local\ms-playwright\chromium-1228\chrome-win64\chrome.exe> version=149.0.7827.55>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='login_application' scope='function' baseid=''>
+              request: <SubRequest 'login_application' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_setup --> <Page url='https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_UpdatePwd[chromium]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000020E620B12B0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_UpdatePwd[chromium]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_UpdatePwd[chromium]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_UpdatePwd[chromium]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000020E620B12B0>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_UpdatePwd[chromium]>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='login_application' scope='function' baseid=''>
+              request: <SubRequest 'login_application' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_UpdatePwd[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_pw_artifacts_folder' scope='session' baseid=''>
+              request: <SubRequest '_pw_artifacts_folder' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='connect_options' scope='session' baseid=''>
+              request: <SubRequest 'connect_options' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
+              request: <SubRequest 'playwright' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_adminUserCreation[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_UpdatePwd[chromium]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x0000020E620B12B0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/UserCreation/test_updatepwd.py::Test_UpdatePassword::test_UpdatePwd[chromium]
+            location: ('tests\\UserCreation\\test_updatepwd.py', 6, 'Test_UpdatePassword.test_UpdatePwd[chromium]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=0 testsfailed=0 testscollected=2>
+        exitstatus: 0
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x0000020E6521C830>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x0000020E620B12B0>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x0000020E620B12B0>
+    finish pytest_unconfigure --> [] [hook]

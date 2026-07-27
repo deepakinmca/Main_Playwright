@@ -24,7 +24,15 @@ DICT_ADMIN_USER                  = {"role": "Admin","status": "Enabled","employe
 EMP_ID                           = "EMP_001"
 OTHER_ID                         = "108"
 TEST_FIELD                       = "Test Orange"
+PROFILE_NAME                     = "profile picture"
 DICT_CUSTOM_FIELDS               = {"Blood Type":"", "Test_Field": "Test_IT"} 
 #DICT_ADD_USR_PER_DETAILS         = {"name": "Deepak","Last Name": "Natarajan","Employee Id":007,"Other Id": 001,"Driver's License Number": "98844","License Expiry Date": "18-10-2028", "Nationality":"Indian", "Marital Status":"Married", "DOB": "28-03-1998", "Gender":"Male"}
 
- 
+
+# ---------------------------- LEFT PANEL ** My Info ** - Contact Details ------------------------------------------ #
+
+STREET_NAME_1                     = "No 2/9"
+CITY_NAME                         = "T Nagar"
+STATE_NAME                        = "Tamil Nadu"
+PIN_CODE                          = "600075"
+STREET_NAME_2                     = "Ayyanar Koil Street"
