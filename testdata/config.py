@@ -1,4 +1,4 @@
-TIMEOUT            = 5000
+TIMEOUT            = 2000
 HEADLESS           = False
 USERNAME           = "Admin"
 BROWSER            = "chromium"
