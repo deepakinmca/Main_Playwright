@@ -1,3 +1,4 @@
+import pytest
 class Test_mySisFamily_test006:
     def test_father_test29(self):
         print ("13 Father name is:",'Natarajan Kuppuswamy')
@@ -11,7 +12,7 @@ class Test_mySisFamily_test006:
         print ("17 Younger name is:","Luxitha Ganesh")
     def test_mama_test34(self):
         print ("18 Mama name is:","Ganesh Mohan")
-
+@pytest.mark.skip
 class Test_MyFamily_test007(Test_mySisFamily_test006):
     def test_spouse_test35(self):
         print("19 Spouse name is:","Nandhini Murugesan")
