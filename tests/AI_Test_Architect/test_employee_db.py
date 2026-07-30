@@ -1,5 +1,6 @@
 from utils.db_connection import *
 from utils.db_queries import *
+import mysql.connector
 
 cursor = connection.cursor()
 query = """
