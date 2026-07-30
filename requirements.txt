@@ -8,3 +8,4 @@ python-dotenv==1.1.1
 openpyxl==3.1.5
 allure-pytest==2.15.0
 pytest-playwright
+mysql-connector-python==9.4.0
