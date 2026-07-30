@@ -1,7 +1,7 @@
 from utils.db_connection import *
 from utils.db_queries import *
-import mysql.connector
 
+connection = get_db_connection()
 cursor = connection.cursor()
 query = """
 SELECT
