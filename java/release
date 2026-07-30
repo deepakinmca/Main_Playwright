@@ -1,0 +1,7 @@
+JAVA_VERSION="1.8.0_501"
+JAVA_RUNTIME_VERSION="1.8.0_501-b08"
+OS_NAME="Windows"
+OS_VERSION="5.2"
+OS_ARCH="amd64"
+SOURCE=".:git:91ebff6b850c+"
+BUILD_TYPE="commercial"

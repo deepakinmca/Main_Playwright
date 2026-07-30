@@ -2,6 +2,7 @@ from playwright.sync_api import Page, expect
 from testdata.config import *
 from testdata.locators import *
 from testdata.Variables import *
+from utils import *
 class Test_MyInfo_Personal_Data:
     def test_myinfo_profile_img(self, login_application):
         # Verify whether image is present or not [get_by_alt_text, is_visible, is_hidden, wait_for_load_state and to_be_visible]
