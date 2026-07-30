@@ -2,12 +2,16 @@ import pytest
 from playwright.sync_api import sync_playwright
 
 @pytest.mark.api
-with sync_playwright() as p:
-    request = p.request.new_context()
+def test_api_check():
 
-    response = request.get(
-        "https://jsonplaceholder.typicode.com/users/1"
-    )
+    with sync_playwright() as p:
 
-    print(response.status)
-    print(response.json())
+        request = p.request.new_context()
+
+        response = request.get("https://opensource-demo.orangehrmlive.com")
+
+        print(response.status)
+
+        assert response.status == 200
+
+        request.dispose()
