@@ -1,4 +1,5 @@
 import pytest
+#@pytest.mark.smoke
 class Test_MyFamily_test002:
     def test_father_test5(self):
         print("Natarajan Kuppuswamy")

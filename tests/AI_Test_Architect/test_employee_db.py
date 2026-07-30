@@ -1,7 +1,7 @@
 import pytest
 from utils.db_connection import get_db_connection
 
-@pytest.mark.skip
+@pytest.mark.database
 def test_get_employees():
     connection = get_db_connection()
     cursor = connection.cursor()

@@ -4,6 +4,8 @@ from testdata.config import *
 from testdata.locators import *
 from testdata.Variables import *
 from utils import *
+
+@pytest.mark.flaky(reruns=1, reruns_delay=0)
 class Test_FileUpload():
     def test_fileupload(self,login_application):
         login_application.locator(Click_MyInfo).click()

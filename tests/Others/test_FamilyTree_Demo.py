@@ -20,12 +20,12 @@ class Test_MyFamily_test007(Test_mySisFamily_test006):
     @pytest.mark.regression
     def test_spouse_test35(self):
         print("19 Spouse name is:","Nandhini Murugesan")
-
+    @pytest.mark.critical
     def test_myself_test36(self):
         print("20 My name is:","Deepak Natarajan")
     @pytest.mark.regression
     def test_kidFirst_test37(self):
         print("21 Innocent name is:","Harshitha Deepak")
-
+    @pytest.mark.critical
     def test_KidSecond_test38(self):
         print("22 Rowdy name is:","Anisha Deepak")
