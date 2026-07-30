@@ -1,8 +1,11 @@
+import pytest
 class Test_Family_test001:
+    @pytest.mark.sanity
     def test_father_test1(self):
         print ("Natarajan Kuppuswamy")
     def test_mother_test2(self):
         print ("Geetha Natarajan")
+    @pytest.mark.sanity
     def test_sister_test3(self):
         print ("Maithili Natarajan")
     def test_myself_test4(self):

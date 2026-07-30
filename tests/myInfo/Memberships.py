@@ -1,9 +1,9 @@
+import pytest 
 from playwright.sync_api import Page, expect
 from testdata.config import *
 from testdata.locators import *
 from testdata.Variables import *
 from utils import *
-
 class Test_FileUpload():
     def test_fileupload(self,login_application):
         login_application.locator(Click_MyInfo).click()

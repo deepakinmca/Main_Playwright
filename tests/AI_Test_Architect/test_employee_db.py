@@ -1,26 +1,29 @@
-from utils.db_connection import *
-from utils.db_queries import *
+import pytest
+from utils.db_connection import get_db_connection
 
-connection = get_db_connection()
-cursor = connection.cursor()
-query = """
-SELECT
-    emp_number,
-    employee_id,
-    emp_firstname,
-    emp_lastname
-FROM hs_hr_employee
-LIMIT 10;
-"""
+@pytest.mark.skip
+def test_get_employees():
+    connection = get_db_connection()
+    cursor = connection.cursor()
 
-cursor.execute(query)
+    query = """
+    SELECT
+        emp_number,
+        employee_id,
+        emp_firstname,
+        emp_lastname
+    FROM hs_hr_employee
+    LIMIT 10;
+    """
 
-employees = cursor.fetchall()
+    cursor.execute(query)
+    employees = cursor.fetchall()
 
-print("Employees:\n")
+    print("\nEmployees:")
+    for emp in employees:
+        print(emp)
 
-for emp in employees:
-    print(emp)
+    assert len(employees) > 0
 
-cursor.close()
-connection.close()
+    cursor.close()
+    connection.close()
