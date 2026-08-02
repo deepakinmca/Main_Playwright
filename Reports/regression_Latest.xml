@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="5" tests="9" time="30.255" timestamp="2026-08-02T09:11:18.984914" hostname="DESKTOP-OO4HR3H"><testcase classname="tests.myInfo.test_Memberships.Test_FileUpload" name="test_fileupload[chromium]" time="27.405"><failure message="AssertionError: Page title expected to be 'Test'&#10;Actual value: OrangeHRM &#10;Call log:&#10;  - PageAssertions.to_have_title with timeout 5000ms&#10;  - waiting for locator(&quot;:root&quot;)&#10;    9 × locator resolved to &lt;html&gt;…&lt;/html&gt;&#10;      - unexpected value &quot;OrangeHRM&quot;">self = &lt;test_Memberships.Test_FileUpload object at 0x000002945E94B2C0&gt;
+login_application = &lt;Page url='https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7'&gt;
+
+    @pytest.mark.regression
+    def test_fileupload(self,login_application):
+        logger.info("Regression Test Started")
+        login_application.locator(Click_MyInfo).click()
+        login_application.get_by_text("Memberships").click()
+        print(login_application.url)
+&gt;       expect(login_application).to_have_title('Test')
+E       AssertionError: Page title expected to be 'Test'
+E       Actual value: OrangeHRM 
+E       Call log:
+E         - PageAssertions.to_have_title with timeout 5000ms
+E         - waiting for locator(":root")
+E           9 × locator resolved to &lt;html&gt;…&lt;/html&gt;
+E             - unexpected value "OrangeHRM"
+
+tests\myInfo\test_Memberships.py:20: AssertionError</failure></testcase><testcase classname="tests.Others.test_FamilyTree_Demo.Test_mySisFamily_test006" name="test_father_test29" time="0.002" /><testcase classname="tests.Others.test_FamilyTree_Demo.Test_mySisFamily_test006" name="test_sister_test31" time="0.001" /><testcase classname="tests.Others.test_FamilyTree_Demo.Test_mySisFamily_test006" name="test_pappaSecond_test33" time="0.002" /><testcase classname="tests.Others.test_FamilyTree_Demo.Test_MyFamily_test007" name="test_father_test29" time="0.001"><skipped type="pytest.skip" message="unconditional skip">C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\Others\test_FamilyTree_Demo.py:4: unconditional skip</skipped></testcase><testcase classname="tests.Others.test_FamilyTree_Demo.Test_MyFamily_test007" name="test_sister_test31" time="0.001"><skipped type="pytest.skip" message="unconditional skip">C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\Others\test_FamilyTree_Demo.py:9: unconditional skip</skipped></testcase><testcase classname="tests.Others.test_FamilyTree_Demo.Test_MyFamily_test007" name="test_pappaSecond_test33" time="0.001"><skipped type="pytest.skip" message="unconditional skip">C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\Others\test_FamilyTree_Demo.py:14: unconditional skip</skipped></testcase><testcase classname="tests.Others.test_FamilyTree_Demo.Test_MyFamily_test007" name="test_spouse_test35" time="0.001"><skipped type="pytest.skip" message="unconditional skip">C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\Others\test_FamilyTree_Demo.py:21: unconditional skip</skipped></testcase><testcase classname="tests.Others.test_FamilyTree_Demo.Test_MyFamily_test007" name="test_kidFirst_test37" time="0.125"><skipped type="pytest.skip" message="unconditional skip">C:\Users\i9884\OneDrive\Desktop\Learnings\Playwright\tests\Others\test_FamilyTree_Demo.py:27: unconditional skip</skipped></testcase></testsuite></testsuites>

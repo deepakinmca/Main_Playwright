@@ -1,0 +1,3 @@
+logger.info("Login test started")
+logger.info(f"Username: {username}")
+logger.error("Login failed")

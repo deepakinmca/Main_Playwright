@@ -1,0 +1,16 @@
+quality_gate:
+
+  smoke:
+    allowed_failures: 0
+
+  critical:
+    allowed_failures: 0
+
+  regression:
+    minimum_pass_percentage: 100
+
+  api:
+    allowed_failures: 0
+
+  database:
+    allowed_failures: 0
